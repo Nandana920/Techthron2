@@ -1,0 +1,66 @@
+/* Apply Background Image */
+body {
+    font-family: Arial, sans-serif;
+    background: url('shop-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding-top: 60px; /* Increased top padding to move text downward */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+/* Main Container - Slightly Larger */
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px; /* Increased padding */
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 350px; /* Slightly wider */
+    min-height: 350px; /* Slightly taller */
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Generate Image Button - Green with Black Text */
+button {
+    background-color: #39FF14; /* Green */
+    color: black; /* Black text */
+    padding: 12px; /* Slightly larger padding */
+    font-size: 18px; /* Slightly larger font */
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 15px; /* More space */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-style {
+    display: block;                /* Makes the link a block element */
+    width: 200px;                  /* Set width of the button */
+    padding: 15px;                 /* Adds padding to the button */
+    background-color: #4CAF50;     /* Green background */
+    color: white;                  /* White text */
+    text-align: center;            /* Center align the text */
+    font-size: 16px;               /* Text size */
+    border-radius: 5px;            /* Rounded corners */
+    text-decoration: none;         /* Remove the underline from the link */
+    margin-top: 20px;              /* Add space above the button */
+    cursor: pointer;              /* Show pointer cursor when hovering */
+}
+
+.button-style:hover {
+    background-color: #45a049;     /* Darker green when hovered */
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="proceedstyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Generator</h1>
+        
+        <!-- Generated Image in a Box -->
+        <div class="image-box">
+            <img src="" alt="Generated Image" id="generatedImage" style="display: none; width: 100%; max-width: 600px;">
+        </div>
+        
+        <!-- Description Input for Image Generation -->
+        <textarea id="description" placeholder="Enter a description for the image..." rows="4" cols="50"></textarea>
+        
+        <!-- Button to Trigger Image Generation -->
+        <button id="generateImageButton">Generate Image</button>
+        
+        <!-- Buttons for actions -->
+        <div class="button-container">
+            <button id="buyNow">Buy Now</button>
+            <button id="addToCart">Add to Cart</button>
+        </div>
+    </div>
+    
+    <!-- Include the external JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

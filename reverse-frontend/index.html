@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Shopping</title>
+    <link rel="stylesheet" href="indexstyles.css">
+</head>
+<body>
+  <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    
+    <h2>Select a Category:</h2>
+    <select id="category">
+        <option value="electronics">Electronics</option>
+        <option value="fashion">Fashion</option>
+        <option value="furniture">Furniture</option>
+        <option value="custom">Custom</option>
+    </select>
+
+    <h2>Describe Your Idea:</h2>
+    <textarea id="description" rows="4" placeholder="Describe the product you want..."></textarea>
+   <!-- <button onclick="generateImage()">Generate Image</button>-->
+
+<a class="button-style" href="proceed.html">Generate Image</a>
+    <img id="generatedImage" src="" alt="Generated Image" style="width: 300px; display: none;">
+
+    <script src="script.js"></script>
+</body>
+</html>
